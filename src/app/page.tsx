@@ -3,6 +3,7 @@
 import styles from "./style";
 import { TokenBridgeGuide, Bridge, Stats, CTA, Footer, Navbar, Hero } from "./components";
 import WormholeBridge from "@wormhole-foundation/wormhole-connect";
+import { Analytics } from "@vercel/analytics/react"
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
             <Bridge />
             <CTA />
             <Footer />
+            <Analytics/>
           </div>
         </div>
       </div>
