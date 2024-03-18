@@ -30,8 +30,8 @@ export default function Home() {
             <Bridge />
             <CTA />
             <Footer />
-            <Analytics/>
           </div>
+            <Analytics/>
         </div>
       </div>
     </main>
