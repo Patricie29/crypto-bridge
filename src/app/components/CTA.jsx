@@ -5,7 +5,7 @@ const CTA = () => (
         <div className="flex-1 flex flex-col">
             <h2 className={styles.heading2}>Crossing Crypto</h2>
             <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-                Everything you need to know about bridging. Try it now!
+                Everything you need to know about bridging. Do not wait and try it now!
             </p>
         </div>
 
